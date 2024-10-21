@@ -1,5 +1,4 @@
 'use strict';
-
 /* 10. Implement phone book using hash (also known as `object`).
 - Define hash with `key` contains `name` (from previous example) and `value`
 contains `phone`.
