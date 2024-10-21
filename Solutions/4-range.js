@@ -6,7 +6,7 @@ const range = (begin, end) => {
   const array = new Array(len);
   let i = 0;
   for (let n = begin; n <= end; n++) {
-    array[i++] = n;
+    array[i--] = n;
   }
   return array;
 };

@@ -7,6 +7,12 @@
 - Try to assign other object to both identifiers.
 - Explain script behaviour. */
 
-const fn = null;
-
+const fn = () => {
+    const first = {name: 'Tom'};
+    let second ={name: 'Tom'};
+    first.name = 'Jerry';
+    second.name = 'Jerry';
+    const full = {name: 'Tom Jerry'};
+    // В цьому випадку на результат не вплинула різниця між константою та змінною, бо ми не змінюємо саме посилання на об'єкт
+};
 module.exports = { fn };
